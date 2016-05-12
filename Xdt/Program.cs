@@ -9,7 +9,7 @@ namespace Xdt
 		public static void Main (string[] args)
 		{
 			if (args.Length != 3) {
-				Console.Error.WriteLine ("error args: mono xdt [path]/Web.config [path]/Web.[Tramsform].config [output]/Web.config");
+				Console.Error.WriteLine ("error args: mono xdt.exe [path]/Web.config [path]/Web.[Tramsform].config [output]/Web.config");
 				return;
 			}
 			var originalFileXml = new System.Xml.XmlDocument();
